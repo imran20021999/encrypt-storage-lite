@@ -1,0 +1,9 @@
+export const DEFAULTS = {
+  STORAGE_KEY: '__encrypt_storage__',
+  PBKDF2_ITERATIONS: 100_000,
+  PBKDF2_HASH: 'SHA-256',
+  SALT_LENGTH: 16,
+  IV_LENGTH: 12,
+  AES_KEY_LENGTH: 256,
+  AES_ALGORITHM: 'AES-GCM',
+} as const;
